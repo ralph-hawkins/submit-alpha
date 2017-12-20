@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class='grid-row'>
+    <div class='column-two-thirds'>
+      <h1 class='heading-large'>
+        Create an account
+      </h1>
+
+      <form method="post" action='services' autocomplete="off">
+        <div class='form-group'>
+          <label class="form-label" for="full-name">Full name</label>
+          <input class="form-control" id="full-name" type="text" name="full-name">
+        </div>
+
+        <div class='form-group'>
+          <label class="form-label" for="email-address">Email address</label>
+          <span class="form-hint">
+            Must be from a government organisation
+          </span>
+          <input class="form-control" id="email-address" type="text" name="email-address">
+        </div>
+
+        <div class='form-group'>
+          <label class="form-label" for="mobile-number">Mobile number</label>
+          <span class="form-hint">
+            We’ll send you a security code by text message
+          </span>
+          <input class="form-control" id="mobile-number" type="text" name="mobile-number">
+        </div>
+
+        <div class='form-group'>
+          <label class="form-label" for="password">Password</label>
+          <span class="form-hint">
+            At least 8 characters
+          </span>
+          <input class="form-control" id="password" type="password" name="password">
+        </div>
+
+        <input type="submit" class="button" value="Continue">
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+

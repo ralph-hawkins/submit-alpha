@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class='grid-row'>
+    <div class='column-two-thirds'>
+
+      <h1 class='heading-large'>
+        Choose a transaction
+      </h1>
+
+      <h2 class='heading-medium'>
+        Live
+      </h2>
+      <ul class='service-list'>
+        <li>
+          <h3 class='heading-small'>
+            <a href='#'>Apply for a licence to keep African wild dogs</a>
+          </h3>
+          <div class="service-summary">
+            <h4 class='summary-heading'>Last 24 hours</h3>
+            <dl>
+              <dt>Completed:</dt>
+              <dd>5</dd>
+              <dt>Incomplete:</dt>
+              <dd>1</dd>
+            </dl>
+          </div>
+        </li>
+      </ul>
+
+      <h2 class='heading-medium'>
+        Draft
+      </h2>
+      <ul class='service-list'>
+        <li>
+          <h3 class='heading-small'>
+            <a href='#'>Update licence to keep African wild dogs</a>
+          </h3>
+        </li>
+        <li>
+          <h3 class='heading-small'>
+            <a href='#'>Apply for a licence to keep Spotted hyenas</a>
+          </h3>
+        </li>
+      </ul>
+
+      <a href='#' class='margin-top-medium display-inline-block'>
+        Create a new transaction
+      </a>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
