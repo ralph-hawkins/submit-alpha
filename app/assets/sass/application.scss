@@ -38,12 +38,15 @@ $path: "/public/images/";
   margin-top: -10px;
   padding: {
     top: 10px;
-    bottom: 10px;
+    bottom: 30px;
   }
   .product-container {
     @extend %site-width-container;
     .column-two-thirds {
       padding: 0px;
+    }
+    img {
+      padding-top: 30px;
     }
     color: white;
     a {
@@ -55,7 +58,30 @@ $path: "/public/images/";
         color: rgba(255,255,255,0.75);
       }
     }
+    p {
+      @include core-19;
+    }
+    .lede {
+      @include core-24;
+    } 
   }
+}
+
+.homepage-section {
+  padding-bottom: 20px;
+  border-bottom: 1px solid $border-colour;
+  &:last-of-type {
+    border-bottom: none;
+  }
+  .homepage-big-number {
+    font-size: 48px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+}
+
+.breadcrumbs--inverse {
+  border-bottom: 1px solid rgba(255,255,255,0.5);
 }
 
 
@@ -117,4 +143,8 @@ $large: 40px;
       }
     }
   }
+}
+
+.list-lede {
+  margin-bottom: 0px;
 }
