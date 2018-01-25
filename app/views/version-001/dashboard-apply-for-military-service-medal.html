@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class='grid-row'>
+    <div class='column-full'>
+      <div class="navigation-service">
+        <div class="navigation-service-name">
+          Apply for a military service medal
+        </div>
+        <a href="services" class="navigation-service-switch">Switch service</a>
+      </div>
+    </div>
+  </div>
+  <div class='grid-row'>
+    <div class='column-one-third'>
+      <ul class='service-nav'>
+        <li><a href="#" class='active'>Dashboard</a></li>
+        <li><a href="data-apply-for-military-service-medal">Data</a></li>
+        <li><a href="settings-apply-for-military-service-medal">Settings</a></li>
+      </ul>
+    </div>
+    <div class='column-two-thirds'>
+      <h2 class="heading-medium margin-top-none">
+        In the last 7 days
+      </h2>
+    </div>
+    <div class="column-one-third">
+      <h3 class='heading-small'>Completed</h3>
+      <span class='big-number'>
+        266
+      </span>
+      <img src="../public/images/analytics/transactionArtboard 1.png">
+    </div>
+    <div class="column-one-third">
+      <h3 class='heading-small'>Abandoned</h3>
+      <span class='big-number'>
+        149
+      </span>
+      <img src="../public/images/analytics/transactionArtboard 2.png">
+    </div>
+    <div class="column-one-third">
+      &nbsp;
+    </div>
+    <div class="column-one-third">
+      <h3 class='heading-small'>Completed without validation messages</h3>
+      <span class='big-number'>
+        256
+      </span>
+      <img src="../public/images/analytics/transactionArtboard 3.png">
+    </div>
+    <div class="column-one-third">
+      <h3 class='heading-small'>Average completion time</h3>
+      <span class='big-number'>
+        6 mins 7 seconds
+      </span>
+      <img src="../public/images/analytics/transactionArtboard 4.png">
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+

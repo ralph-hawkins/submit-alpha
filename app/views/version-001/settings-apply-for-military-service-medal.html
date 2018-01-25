@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class='grid-row'>
+    <div class='column-full'>
+      <div class="navigation-service">
+        <div class="navigation-service-name">
+          Apply for a military service medal
+        </div>
+        <a href="services" class="navigation-service-switch">Switch service</a>
+      </div>
+    </div>
+  </div>
+  <div class='grid-row'>
+    <div class='column-one-third'>
+      <ul class='service-nav'>
+        <li><a href="dashboard-apply-for-military-service-medal">Dashboard</a></li>
+        <li><a href='data-apply-for-military-service-medal''>Data</a></li>
+        <li><a href="settings-apply-for-military-service-medal" class='active'>Settings</a></li>
+      </ul>
+    </div>
+    <div class="column-two-thirds">
+      <h2 class="heading-medium margin-top-none">Settings</h2>
+      <ul>
+        <li><a href='##'>Remove service</a></li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+

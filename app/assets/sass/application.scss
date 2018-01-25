@@ -48,6 +48,9 @@ $path: "/public/images/";
     img {
       padding-top: 30px;
     }
+    .heading-xlarge {
+      margin-bottom: 30px;
+    }
     color: white;
     a {
       color: white;
@@ -63,6 +66,23 @@ $path: "/public/images/";
     }
     .lede {
       @include core-24;
+    }
+    .hero-button {
+      display: inline-block;
+      margin: 10px 0;
+      background-color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      color: $govuk-blue;
+      border-bottom: 2px solid rgba(0,0,0,0.75);
+      padding: 5px 20px;
+      &:hover {
+        color: $link-hover-colour;
+      }
+      &:visited {
+        color: $govuk-blue;
+      }
     } 
   }
 }
@@ -84,6 +104,16 @@ $path: "/public/images/";
   border-bottom: 1px solid rgba(255,255,255,0.5);
 }
 
+// Get started
+
+.task-list {
+  list-style-type: decimal;
+  @include core-24;
+  font-weight: bold;
+  p {
+    @include core-19;
+  }
+}
 
 // White space
 
@@ -101,6 +131,10 @@ $large: 40px;
 
 .padding-top-large {
   padding-top: $large;
+}
+
+.margin-top-none {
+  margin-top: 0px;
 }
 
 .margin-top-small {
@@ -125,8 +159,24 @@ $large: 40px;
 
 // General
 
+.header-proposition {
+  .content {
+    background-color: red;
+    ul {
+      float: right;
+      li {
+        padding-right: 0px !important;
+        padding-left: 15px !important;
+      }
+    }
+  }
+}
+
 .service-list {
-  padding-bottom: 10px;
+  display: block;
+  &:last-of-type {
+    margin-bottom: 20px;
+  }
   li {
     .service-summary {
       @include core-16;
@@ -139,6 +189,7 @@ $large: 40px;
 
       }
       .summary-heading {
+        font-weight: bold;
         padding-bottom: 5px;
       }
     }
@@ -147,4 +198,58 @@ $large: 40px;
 
 .list-lede {
   margin-bottom: 0px;
+}
+
+.breadcrumbs {
+  &__item {
+    &--active {
+      font-weight: bold !important;
+    }
+  }
+}
+
+.navigation-service {
+  border-bottom: 1px solid $border-colour;
+  margin-bottom: 20px;
+  .navigation-service-name {
+    font-weight: bold;
+    margin: 10px 0px;
+    display: inline-block;
+  }
+  .navigation-service-switch {
+    margin-top: 10px;
+    text-decoration: none;
+    float: right;
+    &:hover {
+      color: $link-hover-colour;
+    }
+    &:visited {
+      color: $govuk-blue;
+    }
+  }
+}
+
+.service-nav {
+  a {
+    text-decoration: none;
+    &:visited {
+      color: $govuk-blue;
+    }
+  }
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.big-number {
+  @include core-36($tabular-numbers: true);
+  font-weight: bold;
+}
+
+.foo {
+  background-color: red;
+}
+
+.active {
+  font-weight: bold;
 }

@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class='column-two-thirds'>
+      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+         <ol>
+           <li class="breadcrumbs__item">
+             <a href="https://www.gov.uk/service-toolkit#components" itemprop="item">Components</a>
+           </li>
+           <li class="breadcrumbs__item">
+             <a href="index" itemprop="item">GOV.UK Submit</a>
+           </li>
+           <li class="breadcrumbs__item--active">
+             <span itemprop="name">Get started</span>
+           </li>
+         </ol>
+       </nav>
+     </div>
+     <div class="column-two-thirds">
+      <h1 class="heading-large">
+        Get started
+      </h1>
+      <p>
+        We can help you set up an online transaction in a few weeks.
+      </p>
+      <ol class='task-list'>
+        <li>
+          <h2 class='heading-medium'>Check whether we can help your service</h2>
+          <p>
+            Detail about what you need to do.
+          </p>
+        </li>
+        <li>
+          <h2 class='heading-medium'>Do something else</h2>
+          <p>
+            Detail about what you need to do.
+          </p>
+        </li>
+      </ol>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+
