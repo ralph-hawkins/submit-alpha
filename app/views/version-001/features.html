@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class='column-two-thirds'>
+      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+         <ol>
+           <li class="breadcrumbs__item">
+             <a href="https://www.gov.uk/service-toolkit#components" itemprop="item">Components</a>
+           </li>
+           <li class="breadcrumbs__item">
+             <a href="index" itemprop="item">GOV.UK Submit</a>
+           </li>
+           <li class="breadcrumbs__item--active">
+             <span itemprop="name">Features</span>
+           </li>
+         </ol>
+       </nav>
+     </div>
+     <div class="column-two-thirds">
+      <h1 class="heading-large">
+        Features
+      </h1>
+      <p class="list-lede">
+        Services built with Submit can:
+      </p>
+      <ul class="list-bullet list">
+        <li>work with services that have less than 100,000 transactions per year</li>
+        <li>make simple calculations</li>
+        <li>use simple rules and logic</li>
+        <li>draw from static lists of data (that your service provides)</li>
+        <li>send information to a government organisation to process</li>
+        <li>let users save their progress and come back to it another time</li>
+        <li>send confirmation emails or text messages when users complete a transaction</li>
+        <li>enable individual users (not businesses) to prove their identity online</li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+

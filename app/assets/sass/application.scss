@@ -106,11 +106,15 @@ $path: "/public/images/";
 
 // Get started
 
-.task-list {
+.get-started {
   list-style-type: decimal;
   @include core-24;
   font-weight: bold;
   p {
+    @include core-19;
+  }
+  .list-bullet {
+    font-weight: normal;
     @include core-19;
   }
 }
