@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  GOV.UK prototype kit
+GOV.UK prototype kit
 {% endblock %}
 
 {% block content %}
@@ -27,9 +27,659 @@
     </div>
     <div class="column-two-thirds">
       <h2 class="heading-medium margin-top-none">Data</h2>
-      <ul>
-        <li><a href='##'>Download data for last 7 days (CSV)</a></li>
-      </ul>
+
+      <div class='margin-bottom-medium'>
+        <label class="form-label" for="full-name-f1">Reference number</label>
+        <input class="form-control" id="full-name-f1" type="text" name="full-name-f1">
+      </div>
+
+      <div class='margin-bottom-medium'>
+        <label class="form-label" for="full-name-f1">Email address</label>
+        <input class="form-control" id="full-name-f1" type="text" name="full-name-f1">
+      </div>
+    </div>
+
+    <div class='column-one-third float-right'>
+      <div class='margin-bottom-medium'>
+        <label class="form-label" for="full-name-f1">Submitted after</label>
+        <input class="form-control" id="full-name-f1" type="text" name="full-name-f1">
+      </div>
+    </div>
+
+    <div class='column-one-third float-right'>
+      <div class='margin-bottom-medium'>
+        <label class="form-label" for="full-name-f1">Submitted before</label>
+        <input class="form-control" id="full-name-f1" type="text" name="full-name-f1">
+      </div>
+    </div>
+
+    <div class='column-two-thirds float-right'>
+      <div class='margin-bottom-large'>
+        <input class="button" type="submit" value="Filter">
+      </div>
+
+      <div class='margin-bottom-large'>
+        <p>2172 transactions</p>
+      </div>
+
+    </div>
+    
+    <div class='column-two-thirds float-right'>
+      <table class='submissions-table'>
+        <thead>
+          <tr>
+            <td>
+              Reference number
+            </td>
+            <td>
+              Email address
+            </td>
+            <td>
+              Submitted
+            </td>
+            <td>
+
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class='tabular'>SRV517792</td>
+            <td>b_north13@hotmail.com</td>
+            <td>0: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517791</td>
+            <td>lyman.sarah60@yahoo.com</td>
+            <td>9: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517790</td>
+            <td>w-powell28@yahoo.com</td>
+            <td>9: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517789</td>
+            <td>w-powell28@yahoo.com</td>
+            <td>9: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517788</td>
+            <td>hill_carol47@gmail.com</td>
+            <td>9: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517787</td>
+            <td>felicity.slater27@hotmail.com</td>
+            <td>8: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517786</td>
+            <td>karenr71@hotmail.com</td>
+            <td>8: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517785</td>
+            <td>howard-gabrielle55@aol.com</td>
+            <td>8: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517784</td>
+            <td>keith_white22@yahoo.co.uk</td>
+            <td>8: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517783</td>
+            <td>faith.b77@inbox.com</td>
+            <td>8: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517782</td>
+            <td>shardacre82@mail.com</td>
+            <td>7: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517781</td>
+            <td>sonia-dyer41@hotmail.com</td>
+            <td>7: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517780</td>
+            <td>victoria_d11@gmail.com</td>
+            <td>7: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517779</td>
+            <td>i.kelly81@btinternet.com</td>
+            <td>7: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517778</td>
+            <td>rutherfordblake72@gmail.com</td>
+            <td>6: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517777</td>
+            <td>diane-h12@gmail.com</td>
+            <td>6: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517776</td>
+            <td>k_morgan13@hotmail.com</td>
+            <td>6: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517775</td>
+            <td>abraham.andrea20@btinternet.com</td>
+            <td>6: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517774</td>
+            <td>jacobtucker94@gmail.com</td>
+            <td>5: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517773</td>
+            <td>j-sharp66@yahoo.com</td>
+            <td>5: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517772</td>
+            <td>carr_carolyn88@aol.com</td>
+            <td>5: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517771</td>
+            <td>pippa.campbell48@hotmail.com</td>
+            <td>4: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517770</td>
+            <td>nicolab69@btinternet.com</td>
+            <td>4: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517708</td>
+            <td>mcdonald_joe77@hotmail.com</td>
+            <td>4: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517768</td>
+            <td>jasmine_fisher83@btinternet.com</td>
+            <td>4: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517767</td>
+            <td>brian.l2@outlook.com</td>
+            <td>3: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517766</td>
+            <td>crandall9@hotmail.com</td>
+            <td>3: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517765</td>
+            <td>tracey-welch52@hotmail.com</td>
+            <td>3: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517764</td>
+            <td>stephen_y12@outlook.com</td>
+            <td>2: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517763</td>
+            <td>r.wright27@gmail.com</td>
+            <td>2: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517762</td>
+            <td>kingjason13@inbox.com</td>
+            <td>2: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517761</td>
+            <td>tim-j35@inbox.com</td>
+            <td>2: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517707</td>
+            <td>jan.walker69@inbox.com</td>
+            <td>1: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517759</td>
+            <td>lee.victor12@outlook.com</td>
+            <td>1: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517758</td>
+            <td>petermarshall77@virginmedia.co.uk</td>
+            <td>1: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517757</td>
+            <td>s-morgan24@gmail.com</td>
+            <td>1: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517756</td>
+            <td>short_felicity25@gmail.com</td>
+            <td>0: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517755</td>
+            <td>lillian.carr41@btinternet.com</td>
+            <td>0: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517754</td>
+            <td>joew58@gmail.com</td>
+            <td>0: Feb 2018 </td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517753</td>
+            <td>mclean-madeleine65@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517769</td>
+            <td>wright-jack89@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517751</td>
+            <td>owen.l27@yahoo.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517750</td>
+            <td>tlawrence57@mail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517760</td>
+            <td>s_marshall33@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517748</td>
+            <td>james_c75@hotmail.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517679</td>
+            <td>graham.una70@btinternet.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517752</td>
+            <td>adrian_mclean53@hotmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517745</td>
+            <td>james-f40@yahoo.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517744</td>
+            <td>p_quinn44@inbox.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517743</td>
+            <td>pullman.sebastian72@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517749</td>
+            <td>victor-poole75@yahoo.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517741</td>
+            <td>m-reid53@outlook.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517747</td>
+            <td>s.james54@hotmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517739</td>
+            <td>peter.sutherland6@inbox.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517746</td>
+            <td>knoxsarah32@inbox.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517737</td>
+            <td>baker-john84@hotmail.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517736</td>
+            <td>alexandra_vance2@inbox.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517742</td>
+            <td>ruthscott64@icloud.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517734</td>
+            <td>fsanderson47@outlook.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517733</td>
+            <td>evan-bailey63@hotmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517732</td>
+            <td>nicholas_r18@aol.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517740</td>
+            <td>h.howard10@hotmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517730</td>
+            <td>russellcolin28@aol.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517729</td>
+            <td>gavin-p23@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517728</td>
+            <td>s_greene31@aol.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517727</td>
+            <td>gibson.lucas21@hotmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517726</td>
+            <td>gordonrampling9@aol.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517725</td>
+            <td>c-short55@yahoo.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517724</td>
+            <td>sutherland_andrew46@btinternet.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517723</td>
+            <td>warren.alsop78@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517722</td>
+            <td>alexandrap49@outlook.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517721</td>
+            <td>cameron-simon54@yahoo.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517720</td>
+            <td>ella_rampling32@apple.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517738</td>
+            <td>heatherb15@btinternet.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517718</td>
+            <td>uross53@mail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517717</td>
+            <td>una-kelly46@hotmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517716</td>
+            <td>brian_a92@icloud.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517715</td>
+            <td>p.taylor5@outlook.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517714</td>
+            <td>macleodalexandra13@virginmedia.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517735</td>
+            <td>lily.h67@yahoo.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517731</td>
+            <td>joe.r9@aol.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517711</td>
+            <td>springer.ruth9@inbox.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517710</td>
+            <td>kimberlyturner85@btinternet.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517709</td>
+            <td>c-jones15@aol.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517708</td>
+            <td>mcdonald_joe77@hotmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517707</td>
+            <td>jan.walker69@inbox.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517706</td>
+            <td>clairec52@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517719</td>
+            <td>johnston_penelope90@virginmedia.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517704</td>
+            <td>penelope_butler66@mail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517703</td>
+            <td>paul.m15@mail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517702</td>
+            <td>rkelly27@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517713</td>
+            <td>stewart-e51@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517700</td>
+            <td>deirdre_g52@aol.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517699</td>
+            <td>t.springer12@hotmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517698</td>
+            <td>reidpaul22@mail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517697</td>
+            <td>phil-d51@hotmail.co.uk</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517696</td>
+            <td>m_murray86@outlook.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517695</td>
+            <td>robertson.christian99@icloud.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+          <tr>
+            <td class='tabular'>SRV517712</td>
+            <td>b_reid13@gmail.com</td>
+            <td>31 Jan 2017</td>
+            <td><a href='#'>View</a>
+          </tr>
+        </tbody>
+      </table>
+
     </div>
   </div>
 </main>

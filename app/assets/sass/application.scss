@@ -153,6 +153,18 @@ $large: 40px;
   padding-top: $large;
 }
 
+.margin-bottom-small {
+  margin-bottom: $small;
+}
+
+.margin-bottom-medium {
+  margin-bottom: $medium;
+}
+
+.margin-bottom-large {
+  margin-bottom: $large;
+}
+
 .display-block {
   display: block;
 }
@@ -303,4 +315,22 @@ $large: 40px;
 
 .float-right {
   float: right;
+}
+
+.submissions-table {
+  thead {
+    td {
+      font-weight: bold;
+    }
+  }
+  a {
+    &:visited {
+      color: $link-colour;
+    }
+  }
+  tbody {
+      .tabular {
+        @include core-19($tabular-numbers: true);
+    }
+  }
 }
