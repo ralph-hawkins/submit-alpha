@@ -104,6 +104,41 @@ $path: "/public/images/";
   border-bottom: 1px solid rgba(255,255,255,0.5);
 }
 
+.logos-container {
+  background-color: $govuk-blue;
+  width: 100%;
+  padding-top: 10px;
+  height: 160px;
+  h2 {
+    color: white;
+    margin-top: 0px;
+  }
+  .logo-container {
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    width: 50%;
+    padding-right: 20px;
+    float: left;
+    &:last-of-type {
+      margin-right: 0px;
+    }
+    p {
+      color: white;
+    }
+    .logo {
+      p {
+        @include core-24;
+        line-height: 24px !important;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .strong {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
 // Get started
 
 .get-started {
